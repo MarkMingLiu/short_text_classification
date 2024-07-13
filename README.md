@@ -35,17 +35,15 @@ tensorboardX
 
 模型|acc|备注
 --|--|--
-TextCNN|91.22%|Kim 2014 经典的CNN文本分类
-TextRNN|91.12%|BiLSTM 
-TextRNN_Att|90.90%|BiLSTM+Attention
-TextRCNN|91.54%|BiLSTM+池化
-FastText|92.23%|bow+bigram+trigram， 效果出奇的好
-DPCNN|91.25%|深层金字塔CNN
-Transformer|89.91%|效果较差
-bert|94.83%|bert + fc  
-ERNIE|94.61%|比bert略差(说好的中文碾压bert呢)  
-
-bert和ERNIE模型代码我放到另外一个仓库了，传送门：[Bert-Chinese-Text-Classification-Pytorch](https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch)，后续还会搞一些bert之后的东西，欢迎star。  
+TextCNN|91.22%
+TextRNN|91.12%
+TextRNN_Att|90.90%
+TextRCNN|91.54%
+FastText|92.23%
+DPCNN|91.25%
+Transformer|89.91%
+bert|94.83%
+ERNIE|94.61%  
 
 ## 使用说明
 ```
